@@ -3,8 +3,6 @@ import { FormContacts } from './FormContacts/FormContacts'
 import { RenderContactsList } from './RenderContactsList/RenderContactsList'
 import { Filter } from './Filter/Filter'
 import { Container } from './Container.styled'
-
-import PropTypes from 'prop-types'
 import { nanoid } from 'nanoid'
 
 export class App extends Component {
