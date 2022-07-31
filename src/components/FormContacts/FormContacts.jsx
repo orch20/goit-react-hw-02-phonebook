@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import { ContactForm, ContactInput, Button } from './FormContacts.styled'
-import shortid from 'shortid'
-
 
 export class FormContacts extends Component {
 
@@ -10,7 +8,7 @@ export class FormContacts extends Component {
         number: '',
     }
     
-    // uniqeId = shortid.generate();
+
 
     OnSubmit = (e) => { 
         e.preventDefault()
